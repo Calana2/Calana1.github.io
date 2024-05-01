@@ -1,0 +1,67 @@
+.menus{
+ border: 5px solid green;
+ border-radius: 40px;
+ display: flex;
+ align-items: left;
+ flex-direction: column;
+ justify-content: left;
+ box-shadow: 0px 0px 12px green;
+ padding-bottom:20px;
+ background-color:#222222;
+ max-height:80vh;
+ max-width:80vw;
+ overflow:auto;
+}
+ 
+#me{
+ display:none;
+}
+#skills{
+ display:none;
+}
+#projects{
+ display:none;
+}
+
+/* Dentro de 'me'*/
+
+span{
+ padding:1%;       
+}
+
+.sectionText{
+ font-size:18px;       
+}
+
+.title{
+ font-size:24px;
+ text-align:center;
+}
+
+.progressContainer{
+ border-radius:40px;
+ height:30px;
+ width:80%;
+ background-color:#404040;
+ display:flex;
+ align-items: center;
+ flex-direction: row;
+ justify-content: left;
+}
+
+.progress-bar{
+ border-radius:40px;
+ width:1%;
+ height:15px;
+ background-color:#00AAFF;
+ color:white;
+ font-weight:400;
+}
+
+@media (max-width: 768px){
+ .menus{
+  min-width:100vw; 
+  max-width:100vw;
+  max-height:50vh;
+ }
+}

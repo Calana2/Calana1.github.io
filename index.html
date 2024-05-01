@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="height=device-height, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="principal.css">
+  <link rel="stylesheet" href="barraLateral.css">
+  <link rel="stylesheet" href="secciones.css">
+  <link rel="stylesheet" href="pie.css">
+  <script src="script.js" ></script>
+  <title>MyProfile</title>
+</head>
+<body>
+  <div class="caja">
+   <section class="contenedor" id='contenedorID'>
+    <aside class="barra-lateral" id="barra-lateralID">
+      <div id="barraSelector">
+       <div id="toMain" class="selector">
+        <canvas id='mainIcon' class='selectorCanvas'>
+        </canvas> 
+       </div>
+       <div id="toMe" class="selector">
+        <canvas id='meIcon' class='selectorCanvas'>
+        </canvas> 
+       </div>
+       <div id="toSkills" class="selector">
+        <canvas id='skillsIcon' class='selectorCanvas'>
+        </canvas> 
+       </div>
+       <div id="toProjects" class="selector">
+        <canvas id='projectsIcon' class='selectorCanvas'>
+        </canvas> 
+       </div>
+      </div>
+    </aside>
+
+    <section class="zona-principal" id="zona-principalID">
+      <div class="menus" id="main">
+        <span id='mainText' class='sectionText'></span>
+      </div>
+
+
+      <div class="menus" id="me">
+       <span class='title'>About Me</span>
+       <span id='personalInfo' class='sectionText'></span>
+       <span id='personalLinks' class='sectionText'>
+         <span id='contact'>
+          <table>
+           <tr>
+            <td>Github:</td>
+            <td><a href='https://github.com/Calana2'>https://github.com/Calana2</a></td>
+           </tr>
+           <tr>
+            <td>ProtonMail:</td>
+            <td><u>Protoncala@proton.me</u></td>
+          </tr>
+          <tr>
+          <td>LinkedIn:</td>
+          <td><a href='https://cu.linkedin.com/in/kevin-cala%C3%B1a-52647a294'</a>https://cu.linkedin.com/in/kevin-cala%C3%B1a-52647a294</td>
+          </tr>
+         </table>
+         </span>
+       </span>
+      </div>
+
+
+      <div class="menus" id="skills">
+       <span id='skillsText' class='sectionText'>
+         <span class='title'>Skills</span> 
+        <br><p> Grouped and being 80 the measure of 'decently competent'</p>
+         <h6>HTML, CSS and Javascript (This website was entirely made with vanilla javascript)</h6>
+         <div  class='progressContainer'>
+          <span>90%</span>
+          <div display='inline' class="progress-bar" number='90' colorIs='linear-gradient(to right, #00b09b, #96c93d)'></div>
+         </div>
+         
+         <h6>C/C++</h6>
+         <div  class='progressContainer'>
+          <span>85%</span>
+          <div display='inline' class="progress-bar" number='85' colorIs='linear-gradient(to right, #00b4db, #0083b0)'></div>
+         </div>
+
+         <h6>NodeJs</h6>
+         <div  class='progressContainer'>
+          <span>60%</span>
+          <div display='inline' class="progress-bar" number='60' colorIs='linear-gradient(to right, #FFD194, #D1913C)'></div>
+         </div>
+         
+         <h6>Bash</h6>
+         <div  class='progressContainer'>
+          <span>50%</span>
+          <div display='inline' class="progress-bar" number='50' colorIs='linear-gradient(to right, #9796f0, #fbc7d4'></div>
+         </div>
+         <h6>React</h6>
+         <div  class='progressContainer'>
+          <span>20%</span>
+          <div display='inline' class="progress-bar" number='20' colorIs='linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)'></div>
+         </div>
+       </span>
+      </div>
+
+
+      <div class="menus" id="projects">
+       <span id='projectsText' class='sectionText'>
+         <span class='title'>Projects:</span><br/>
+        <table>
+         <tr>
+          <td>HTTP/1.0 server for Linux from scratch in C++:   </td>
+          <td><a href='https://github.com/Calana2/C-_Multithread_Web_Server'>https://github.com/Calana2/C-_Multithread_Web_Server</a></td>
+         </tr>
+         <tr>
+          <td>HTTP/1.0 server using core modules in NodeJs:   </td>
+          <td><a href='https://github.com/Calana2/NodeJs_WebServer-scratch-'>https://github.com/Calana2/NodeJs_WebServer-scratch-</a></td>
+         </tr>
+        </table>
+       </span>
+      </div>
+    </section>  
+
+   </section> <!--Contenedor-->
+    <footer class="mainFooter" id='mainFooterID'>
+     <div id="bordes">
+      <span id='frase'>there must be an error if you are seeing this and not a cool quote</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
